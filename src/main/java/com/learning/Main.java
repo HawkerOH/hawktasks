@@ -34,5 +34,7 @@ public class Main {
         Assert.assertEquals("Snake", animals.get(2).getName());
         Assert.assertEquals("Dog", animals.get(3).getName());
         Assert.assertEquals("Whale", animals.get(4).getName());
+
+        System.out.println("Animals are successfully sorted, well done!");
     }
 }
